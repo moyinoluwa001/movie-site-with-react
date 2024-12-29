@@ -1,0 +1,178 @@
+.movie-details-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* .movie-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+   img {
+    width: 300px;
+    border-radius: 8px;
+    margin-right: 20px;
+  } */
+  
+  .movie-header .movie-info {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .movie-info h2 {
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .movie-info p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .movie-info .rating-release {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .movie-info .rating-release span {
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .movie-overview {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .add-favorite-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-favorite-btn:hover {
+    background-color: #e67e22;
+  }
+ 
+  .add-play-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-play-btn:hover {
+    background-color: hsl(0, 2%, 35%);
+  }
+  
+  .add-list-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: hsl(120, 76%, 37%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-list-btn:hover {
+    background-color: hsl(120, 100%, 25%);
+  }
+  
+  .add-watch-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: hsl(0, 56%, 64%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-watch-btn:hover {
+    background-color: hsl(0, 56%, 54%) ;
+  }
+  
+
+  @media (max-width: 768px) {
+    .movie-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .movie-header .movie-info {
+      max-width: 100%;
+    }
+  
+    .movie-info h2 {
+      font-size: 1.5em;
+    }
+  
+    .movie-info p {
+      font-size: 1em;
+    }
+  
+    .movie-info .rating-release {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .movie-overview {
+      font-size: 0.9em;
+    }
+  
+    .add-favorite-btn,
+    .add-play-btn,
+    .add-list-btn,
+    .add-watch-btn {
+      width: 100%;
+      padding: 12px 0;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .movie-info h2 {
+      font-size: 1.3em;
+    }
+  
+    .movie-info p {
+      font-size: 0.9em;
+    }
+  
+    .add-favorite-btn,
+    .add-play-btn,
+    .add-list-btn,
+    .add-watch-btn {
+      padding: 12px;
+      font-size: 1em;
+    }
+  }
+  

@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+
+
+.log-b{
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.log-b h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.log-b input{
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px soild #ccc;
+    border-radius: 16px;
+    font-size: 15px;
+}
+.log-b button{
+     background-color: #0076ff;
+     color: #ffffff;
+     border: none;
+     padding: 10px 15px;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     width: 100%;
+}
+.log-b button:hover {
+    background-color: #0056b3;
+}
+.log-b p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+.log-b a{
+    color: #007bff;
+    text-decoration: none;
+}
+.log-b a:hover{
+    text-decoration: underline;
+}
+
+
+/* responsiveness */
+
+@media(max-width:768px){
+    body{
+        padding: 10px;
+    }
+   .log-b{
+        width: 100%;
+        padding: 15px;
+        box-sizing: none;
+        border:none ;
+   }
+   .log-b h1{
+    font-size: 20px;
+   }
+   .log-b input{
+    font-size: 14px;
+   }
+   .log-b button{
+        font-size: 14px;
+        padding: 8px;
+   }
+   .log-b p{
+      font-size: 12px;
+   }
+}
