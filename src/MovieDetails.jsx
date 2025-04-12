@@ -4,7 +4,8 @@ import { fetchMovieDetails,fetchMovieTrailer } from "./api";
 import FavoriteButton from "./FavoriteButton";
 import MyListButton from "./MyListButton";
 import WatchListButton from "./WatchListButton";
-import '../src/MovieDetails.css';
+// import '../src/MovieDetails.css';
+import './MovieDetails.css';
 
 const MovieDetails = ()=>{
     const{id} = useParams();

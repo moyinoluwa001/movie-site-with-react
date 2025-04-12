@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import {  useNavigate } from "react-router-dom";
 import { fetchMovies } from "./api";
-import '../src/MainPage.css';
+// import '../src/MainPage.css';
+import "./MainPage.css";
 
 const MainPage = ()=>{
 

@@ -1,33 +1,3 @@
-
-// // App.js
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import MainPage from './MainPage';
-// import MovieDetails from './MovieDetails';
-// import FavoritePage from './FavoritePage';
-// import WatchListPage from './WatchListPage';
-// import MyListPage from './MyListPage';
-// import Login from './Login';
-// import Register from './Register';
-
-// function App() {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<Login />} />
-//         <Route path="/register" element={<Register />} />
-//         <Route path="/mainpage" element={<MainPage />} />
-//         <Route path="/movie/:id" element={<MovieDetails />} />
-//         <Route path="/favorites" element={<FavoritePage />} />
-//         <Route path="/watchlist" element={<WatchListPage />} />
-//         <Route path="/mylist" element={<MyListPage />} />
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
-
 import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
 import MainPage from './MainPage.jsx';
 import MovieDetails from './MovieDetails.jsx';
